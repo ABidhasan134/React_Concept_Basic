@@ -1,0 +1,14 @@
+
+.person{
+    display: grid;
+    
+    padding: 50px;
+    margin: 10px;
+    background: gray;
+  }
+  .user
+  {
+    display: flex;
+    grid-template-columns: 50%;
+  }
+  

@@ -6,12 +6,12 @@ let BookList=[
         name: "javascript",
     },
     {
-        id: 2,
-        name: "c++",
+      id:1,
+      name: "javascript",
     },
     {
-        id:3,
-        name:"java",
+      id:1,
+      name: "javascript",
     }
 ]
 const Model=({modelText})=>{

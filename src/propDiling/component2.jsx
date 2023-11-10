@@ -1,11 +1,11 @@
 import React from 'react'
 import Component3 from './component3'
 
-const Component2 = ({sendData}) => {
+const Component2 = () => {
     // console.log(sendData)
   return (
     <div>
-        <Component3 sendData={sendData}/>
+        <Component3 />
     </div>
   )
 }

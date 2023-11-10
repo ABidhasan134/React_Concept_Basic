@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Component3 = ({sendData}) => {
+const Component3 = () => {
     // console.log(sendData1);
     // const [name,id]=sendData
   return (

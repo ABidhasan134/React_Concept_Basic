@@ -1,0 +1,14 @@
+nav{
+    background: grey;
+   
+    display: flex;
+    justify-content: center;
+}
+.link{
+ padding: 5px;   
+ text-decoration: none;
+ color: aliceblue;
+}
+nav .active{
+    color:red;
+}
