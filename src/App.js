@@ -1,6 +1,12 @@
 
 import React from 'react';
-import Main2 from './Router/dynamic_routing/main';
+import Toggol from './Hooks/useCellback/toggol';
+// import MainMemo from './memo/main';
+// import Home from './reactHelmet/home';
+// import CreatJsonandFatch from './jsonServer/creatJsonandFatch';
+// import Main from './Router/protectedRoute/main';
+// import Main2 from './Router/dynamic_routing/main';
+
 
 // import Main1 from './Router/dynamic_routing/main';
 // import Main from './Router/navbarApp/main';
@@ -16,7 +22,7 @@ import Main2 from './Router/dynamic_routing/main';
 // import Propsfind from './component/propsfind';
 // import './App.css';
 // import ConditionalStyle from './component/conditionalStyle';
-{/* <Home1/> */}
+
 
 function App() {
  
@@ -36,8 +42,12 @@ function App() {
     {/* <Home1/> */}
     {/* <Main/> */}
     {/* <Main1/> */}
-    <Main2 />
-
+    {/* <Main2 /> */}
+    {/* <Main/> */}
+    {/* <CreatJsonandFatch/> */}
+    {/* <Home/> */}
+    {/* <MainMemo/> */}
+    <Toggol/>
     </div>
   );
 }

@@ -6,6 +6,8 @@ import About from './About'
 import Error from './error'
 import BarCreat from './barcreat'
 import Vologs from './vologs'
+import RouteParamiter from './RouteParamiter'
+import QueryRout from './QueryRout'
 
 function Main2() {
   return (
@@ -19,6 +21,8 @@ function Main2() {
             <Route path='/books/:title' element={<Vologs/>}></Route>
             <Route path='/about' element={<About/>}></Route>
             <Route path='*' element={<Error/>}></Route>
+            <Route path='/user/:userid' element={<RouteParamiter/>}></Route>
+            <Route path='/user' element={<QueryRout/>}></Route>
         </Routes>
         </BrowserRouter>
    
